@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forum</title>
+    <style>
+        .flag {
+          width: 300px;
+          height: 180px;
+          border: 1px solid #000; /* Optional, just to see the boundaries */
+        }
+
+        #Flag{
+            float: left;
+	        padding-left: 0px;
+	        padding-top: 30px;
+	        margin-right: 7px;
+        }
+    
+        .stripe {
+          height: 60px;
+          width: 100%;
+        }
+    
+        .red {
+          background-color: red;
+        }
+    
+        .blue {
+          background-color: #0033A0;
+        }
+    
+        .orange {
+          background-color: orange;
+        }
+
+        .yy{
+	background: #fff;
+	width: 150px;
+	height: 0px;
+	margin: 50px 0 0 125px;
+	position: absolute;
+	border-top: solid 76px #c40e2f;
+	border-bottom: solid 76px #003478;	
+	border-left: 0;
+	border-right: 0;
+	border-radius: 76px;
+	-moz-border-radius: 76px;
+	-webkit-border-radius: 76px;
+}
+
+.krflag{
+    float: left;
+	padding-left: 300px;
+	padding-bottom: 110px;
+	margin-right: 80px;
+    margin-top: -180px;
+}
+
+.yin{
+	background: #c40e2f;
+	width: 76px;
+	height: 76px;
+	margin-top: -38px;
+	position: absolute;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+.yang{
+	background: #003478;
+	width: 75px;
+	height: 75px;
+	margin: -38px 0 0 75px;
+	position: absolute;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+
+.fullstr{
+	background: #000;
+	width: 70px;
+	height: 12px;
+	margin-bottom: 8px;
+}
+
+.halfstr{
+	background: #fff;
+	width: 10px;
+	border-left: solid 30px #000;
+	border-right: solid 30px #000;
+	height: 12px;
+	margin-bottom: 8px;
+}
+
+#strcontainer1{
+	position: absolute;
+	margin: 20px 0 0 45px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);	
+}
+
+#strcontainer2{
+	position: absolute;
+	margin: 175px 0 0 45px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);	
+}
+
+#strcontainer3{
+	position: absolute;
+	margin: 20px 0 0 275px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+#strcontainer4{
+	position: absolute;
+	margin: 175px 0 0 275px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+        
+      </style>
+</head>
+<body>
+  
+    <div class="flag">
+        <div class="stripe red"></div>
+        <div class="stripe blue"></div>
+        <div class="stripe orange"></div>
+      </div>
+
+
+      <div class="krflag">
+    <div class="yy">
+      <div class="yin"></div>
+      <div class="yang"></div>
+    </div>
+    <div id="strcontainer1">
+      <div class="fullstr"></div>
+      <div class="fullstr"></div>
+      <div class="fullstr"></div>
+    </div>
+    <div id="strcontainer2">
+      <div class="fullstr"></div>
+      <div class="halfstr"></div>
+      <div class="fullstr"></div>
+    </div>
+    <div id="strcontainer3">	
+      <div class="halfstr"></div>
+      <div class="fullstr"></div>
+      <div class="halfstr"></div>
+    </div>
+    <div id="strcontainer4">
+      <div class="halfstr"></div>
+      <div class="halfstr"></div>
+      <div class="halfstr"></div>
+    </div>
+  </div>
+
+</body>
+</html>
